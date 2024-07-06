@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570175264364",
+    "firebase_url": "https://malakaviy-amaliyot-default-rtdb.firebaseio.com",
+    "project_id": "malakaviy-amaliyot",
+    "storage_bucket": "malakaviy-amaliyot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570175264364:android:6e39c6c17028b0079e2a49",
+        "android_client_info": {
+          "package_name": "com.example.malakaviyamaliyot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570175264364-sqvdhmu71dqhilmcj6dobjjf51h97n51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9gOLomuNwSH_ktGuNLdA2rL7Y43QOi-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570175264364-sqvdhmu71dqhilmcj6dobjjf51h97n51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

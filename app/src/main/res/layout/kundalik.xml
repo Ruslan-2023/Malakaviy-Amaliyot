@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kundalik">
+
+    <TextView
+        android:id="@+id/kundalik_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/kundalik"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sanaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kundalik_title"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sana"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/sanaET"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sanaTV"
+        android:layout_alignBottom="@+id/sanaTV"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/sanaTV"
+        android:inputType="text"
+        android:maxLength="10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/soatTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sanaTV"
+        android:layout_alignStart="@+id/sanaTV"
+        android:layout_marginTop="20dp"
+        android:text="@string/soat"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/soatET"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/soatTV"
+        android:layout_alignBottom="@+id/soatTV"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_toEndOf="@+id/sanaTV"
+        android:maxLength="5"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/qatnashuvchilarTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soatTV"
+        android:layout_alignStart="@+id/soatTV"
+        android:layout_marginTop="20dp"
+        android:text="@string/qatnashuvchilar"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/qatnashuvchilarET"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qatnashuvchilarTV"
+        android:layout_alignStart="@+id/qatnashuvchilarTV"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sinfTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qatnashuvchilarET"
+        android:layout_alignStart="@+id/qatnashuvchilarTV"
+        android:layout_marginTop="20dp"
+        android:text="@string/sinf"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/sinfET"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sinfTV"
+        android:layout_alignBottom="@+id/sinfTV"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_toEndOf="@+id/sinfTV"
+        android:maxLength="4"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mavzuTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sinfTV"
+        android:layout_alignStart="@+id/sinfTV"
+        android:layout_marginTop="20dp"
+        android:text="@string/mavzu"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mavzuET"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mavzuTV"
+        android:layout_alignBottom="@+id/mavzuTV"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@+id/mavzuTV"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bayonnomaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mavzuTV"
+        android:layout_alignStart="@+id/mavzuTV"
+        android:layout_marginTop="20dp"
+        android:text="@string/bayonnoma"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/bayonnomaET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bayonnomaTV"
+        android:maxLines="5"
+        android:layout_alignStart="@+id/bayonnomaTV"
+        android:inputType="textMultiLine"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/yuborishBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/yuborish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MalakaviyAmaliyot"
+        tools:targetApi="31" >
+        <activity
+            android:name=".AmaliyotBaxolari2"
+            android:exported="false" />
+        <activity
+            android:name=".AmaliyotBaxolari1"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeDates"
+            android:exported="false" />
+        <activity
+            android:name=".RasmYuklash"
+            android:exported="false" />
+        <activity
+            android:name=".AboutPracticePicture"
+            android:exported="false" />
+        <activity
+            android:name=".Amaliyot_Tafsilotlari_Kundalik"
+            android:exported="false" />
+        <activity
+            android:name=".Tekshirish_Kundalik"
+            android:exported="false" />
+        <activity
+            android:name=".tKundalik"
+            android:exported="false" />
+        <activity
+            android:name=".Mualliflar"
+            android:exported="false" />
+        <activity
+            android:name=".Kutubxona"
+            android:exported="false" />
+        <activity
+            android:name=".QushimchaTavsiyalar"
+            android:exported="false" />
+        <activity
+            android:name=".NamunaviyHisobot"
+            android:exported="false" />
+        <activity
+            android:name=".Galeriya"
+            android:exported="false" />
+        <activity
+            android:name=".Topshiriqlar"
+            android:exported="false" />
+        <activity
+            android:name=".maMaydonchasi"
+            android:exported="false" />
+        <activity
+            android:name=".maHujjatlari"
+            android:exported="false" />
+        <activity
+            android:name=".maBuyichaMetodikTavsiya"
+            android:exported="false" />
+        <activity
+            android:name=".maNizomi"
+            android:exported="false" />
+        <activity
+            android:name=".Kundalik"
+            android:exported="false" />
+        <activity
+            android:name=".Kirish"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
